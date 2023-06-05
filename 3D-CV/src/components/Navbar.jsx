@@ -43,9 +43,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            Haithem &nbsp;
+            <span className='sm:block hidden'>| JS Mastery</span>
           </p>
         </Link>
 
@@ -63,9 +63,12 @@ const Navbar = () => {
           ))}
         </ul>
 
+
+{/*Mobile toggle bar*/}
+
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
-            src={toggle ? close : menu}
+            src={toggle ? close : menu}     //if toggle we want to show close and menu
             alt='menu'
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
