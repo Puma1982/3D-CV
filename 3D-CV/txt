@@ -3,3 +3,11 @@ npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-
 
 Logo:https://logo.com/
 Tailwindcss vite : npm install --legacy-peer-deps -D postcss autoprefixer
+to install light to the descktop :https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
+
+three packeage :npm install --legacy-peer-deps three
+
+
+
+3D MODELS :https://sketchfab.com/features/free-3d-models
+OR     : https://www.turbosquid.com/Search/3D-Models/free
