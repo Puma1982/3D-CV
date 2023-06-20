@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import miro from "./tech/miro.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -16,15 +16,15 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import MAX from "./tech/MAX.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import rco from "./company/rco.png";
+import megger from "./company/megger.png";
 import kl from "./company/kl.png";
-import tesla from "./company/tesla.png";
+import liu from "./company/liu.png";
 import Apartly from "./company/Apartly.png";
 
 import carrent from "./carrent.png";
@@ -41,7 +41,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  miro,
   figma,
   git,
   html,
@@ -49,14 +49,14 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  MAX,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  rco,
+  megger,
   kl,
-  tesla,
+  liu,
   Apartly,
   carrent,
   jobit,
