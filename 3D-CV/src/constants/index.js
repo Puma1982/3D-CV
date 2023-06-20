@@ -224,12 +224,12 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "# Dashboard",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "I have followed a tutorial on building and deploying a MERN stack admin dashboard. For the frontend, I utilized Material-UI,Material-UI Data Grid, Nivo Charts, Redux Toolkit, and Redux Toolkit Query. As for the backend, I used Node.js, Express.js, Mongoose, and MongoDB. Additionally, I learned about data modeling using Entity Relationship Diagrams (ERDs) and how to perform aggregate calls in MongoDB.",
         tags: [
             {
-                name: "react",
+                name: "Express.js",
                 color: "blue-text-gradient",
             },
             {
@@ -237,12 +237,12 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "chakra-ui",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Puma1982/Dashboard",
     },
     {
         name: "Job IT",
