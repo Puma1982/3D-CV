@@ -185,41 +185,29 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Good project responsive, big project in short time where you used backend and frint end.",
+        name: "Pelle Israelsson",
+        designation: "Kvalitetsutvecklare",
+        company: "KYH",
+        image: "https://www.qlok.se/_next/image?url=https%3A%2F%2Fassets.super.so%2Fffecd38b-a748-4702-89ba-e735e095b76d%2Fimages%2F3f244a7a-fe1e-40b4-8cde-90f2fc84e84d%2FFC_20210216_0001_2.jpg&w=1920&q=80",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "I've never met a web developer who truly cares about their clients' like you.",
+        name: "Max Wiktorsson",
+        designation: "Grundare & CEO",
+        company: "Apartly",
+        image: "https://www.apartly.se/_next/image?url=%2Fmax.jpg&w=640&q=90",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "You have been an exceptional student for two years, consistently completing all your projects as expected. Based on your performance, I predict that you will become one of the top programmers in the future",
+        name: "Rebecka Hedlin",
+        designation: "KYH",
+        company: "Utbildningsledare",
+        image: "https://kyh.se/wp-content/uploads/2021/10/rebeckahedlin.webp",
     },
-    {
-        title: "React Native Developer",
-        company_name: "Apartly",
-        icon: liu,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Testing: I used Jest.js for testing, leverage features like test runners and snapshots, and organize tests logically.",
-            "Next.js and Tailwind CSS: I Followed best practices for organizing Next.js applications. I utilized Tailwind CSS's utility classes and customization options for quick styling.",
-            "Backend:I utilize AWS services, APIs, or mongooDB. Implement.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    
 ];
 
 const projects = [
@@ -245,25 +233,25 @@ const projects = [
         source_code_link: "https://github.com/Puma1982/Dashboard",
     },
     {
-        name: "Job IT",
+        name: "Event Calendar",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Event calendar using Express.js and CSS, and then we can discuss how we can improve it further.",
         tags: [
             {
-                name: "react",
+                name: "Express.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "package.json",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "css",
                 color: "pink-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Puma1982/Note-Porject",
     },
     {
         name: "Trip Guide",
@@ -284,7 +272,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Puma1982/Note-Porject",
     },
 ];
 
