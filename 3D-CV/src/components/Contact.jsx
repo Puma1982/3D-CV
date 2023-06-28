@@ -33,16 +33,20 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_dslkn8p',
+'template_lnqlwai',
+//import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Haithem",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "haithemgrissa@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+       'T4jkjIWh44NHxrIa7'
+
       )
       .then(
         () => {
@@ -59,7 +63,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong. Please try again.");
         }
       );
   };
@@ -73,7 +77,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionSubText}><span className='text-[#915EFF]'>Contact.</span></h3>    
 
         <form
           ref={formRef}
@@ -134,3 +138,6 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
+//T4jkjIWh44NHxrIa7
+//template_lnqlwai
+//service_dslkn8p

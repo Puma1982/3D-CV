@@ -185,7 +185,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "Good project responsive, big project in short time where you used backend and frint end.",
+        "Remarkable Graduation Project: My teacher praised my achievement in developing a responsive and substantial application within a short timeframe, highlighting my proficiency in both backend and frontend development. Utilizing modern technologies, I independently designed and implemented a comprehensive solution that delivered exceptional performance and user experience. This project demonstrates my strong understanding of software architecture, data management, and user interface design.",
         name: "Pelle Israelsson",
         designation: "Kvalitetsutvecklare",
         company: "KYH",
@@ -193,7 +193,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' like you.",
+        "Exceptional Performance during Practice: My CEO at Apartly Company commended my outstanding performance and comprehensive understanding of both backend and frontend development. Notably, my proficiency in utilizing new web technologies such as Next.js, React, and Express.js showcased my strong capabilities in delivering high-capacity solutions. I demonstrated intelligence and innovation in implementing a robust testing system using Jest.js. Additionally, my utilization of Google Cloud Console, Passport, and NextAuth in the backend further exemplified my expertise in creating secure and efficient applications. Overall, this feedback affirms my exceptional skills and potential as a developer.",
         name: "Max Wiktorsson",
         designation: "Grundare & CEO",
         company: "Apartly",
