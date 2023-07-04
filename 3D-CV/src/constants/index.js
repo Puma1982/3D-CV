@@ -193,19 +193,19 @@ const testimonials = [
     },
     {
         testimonial:
-        "Exceptional Performance during Practice: My CEO at Apartly Company commended my outstanding performance and comprehensive understanding of both backend and frontend development. Notably, my proficiency in utilizing new web technologies such as Next.js, React, and Express.js showcased my strong capabilities in delivering high-capacity solutions. I demonstrated intelligence and innovation in implementing a robust testing system using Jest.js. Additionally, my utilization of Google Cloud Console, Passport, and NextAuth in the backend further exemplified my expertise in creating secure and efficient applications. Overall, this feedback affirms my exceptional skills and potential as a developer.",
-        name: "Max Wiktorsson",
-        designation: "Grundare & CEO",
-        company: "Apartly",
-        image: "https://www.apartly.se/_next/image?url=%2Fmax.jpg&w=640&q=90",
+        "Exceptional Performance during Practice: My college in the .NET program commended my outstanding performance and comprehensive understanding of both backend and frontend development. Notably, my proficiency in utilizing new web technologies such as Next.js, React, and Express.js showcased my strong capabilities in delivering high-capacity solutions. I demonstrated intelligence and innovation in implementing a robust testing system using Jest.js. Additionally, my utilization of Google Cloud Console, Passport, and NextAuth in the backend further exemplified my expertise in creating secure and efficient applications. Overall, this feedback affirms my exceptional skills and potential as a developer.",
+        name: "Viktor Aoun",
+        designation: "Colleague",
+        company: "KYH",
+        image: "https://media.licdn.com/dms/image/D4D03AQGwQswUTnlhGQ/profile-displayphoto-shrink_800_800/0/1664561267745?e=1693440000&v=beta&t=h0zTZdxhQ45qJo85FOwvW9QTVmWMPyYdctEMy4u_LLo",
     },
     {
         testimonial:
             "You have been an exceptional student for two years, consistently completing all your projects as expected. Based on your performance, I predict that you will become one of the top programmers in the future",
-        name: "Rebecka Hedlin",
-        designation: "KYH",
-        company: "Utbildningsledare",
-        image: "https://kyh.se/wp-content/uploads/2021/10/rebeckahedlin.webp",
+        name: "Djura Dzakula",
+        designation: "Tesla",
+        company: "React teacher",
+        image: "https://media.licdn.com/dms/image/D4D35AQFAkB9ARSHFsQ/profile-framedphoto-shrink_800_800/0/1652341120505?e=1689058800&v=beta&t=DQBUUdzFkaMNgB8n5aSoJyYQk0EoTQsFxaafNEjgLrw",
     },
     
 ];
