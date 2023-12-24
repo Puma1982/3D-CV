@@ -185,27 +185,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-        "Remarkable Graduation Project: My teacher praised my achievement in developing a responsive and substantial application within a short timeframe, highlighting my proficiency in both backend and frontend development. Utilizing modern technologies, I independently designed and implemented a comprehensive solution that delivered exceptional performance and user experience. This project demonstrates my strong understanding of software architecture, data management, and user interface design.",
-        name: "Pelle Israelsson",
-        designation: "Kvalitetsutvecklare",
-        company: "KYH",
-        image: "https://www.qlok.se/_next/image?url=https%3A%2F%2Fassets.super.so%2Fffecd38b-a748-4702-89ba-e735e095b76d%2Fimages%2F3f244a7a-fe1e-40b4-8cde-90f2fc84e84d%2FFC_20210216_0001_2.jpg&w=1920&q=80",
+        "My degree in engineering with a focus on radio electronics and semiconductors represents a comprehensive understanding of electrical circuits, semiconductor devices, and their applications in communication systems. My education delved deep into the principles of radio frequency (RF) systems, semiconductor physics, and the design of electronic circuits used in communication technologies. It equipped me with expertise in semiconductor materials, their properties, and the fabrication processes involved in manufacturing semiconductor devices like diodes, transistors, and integrated circuits.",
+        name: "NURE UNIVERSITY",
+        designation: "Radio electronics semiconductors",
+        company: "NURE",
+        image: "https://ingek.com/wp-content/uploads/2020/04/Logo_NURE_3_Uk_27mm-300x300.jpg",
     },
     {
         testimonial:
-        "Exceptional Performance during Practice: My college in the .NET program commended my outstanding performance and comprehensive understanding of both backend and frontend development. Notably, my proficiency in utilizing new web technologies such as Next.js, React, and Express.js showcased my strong capabilities in delivering high-capacity solutions. I demonstrated intelligence and innovation in implementing a robust testing system using Jest.js. Additionally, my utilization of Google Cloud Console, Passport, and NextAuth in the backend further exemplified my expertise in creating secure and efficient applications. Overall, this feedback affirms my exceptional skills and potential as a developer.",
-        name: "Viktor Aoun",
-        designation: "Colleague",
-        company: "KYH",
-        image: "https://media.licdn.com/dms/image/D4D03AQGwQswUTnlhGQ/profile-displayphoto-shrink_800_800/0/1664561267745?e=1693440000&v=beta&t=h0zTZdxhQ45qJo85FOwvW9QTVmWMPyYdctEMy4u_LLo",
+        "My Master's degree in Signal Processing and Smart Antenna focused on advanced signal manipulation and cutting-edge smart antenna design. This program equipped me with expertise in optimizing wireless signal reception through techniques like adaptive signal processing and antenna array design. I gained hands-on experience in implementing signal processing algorithms, preparing me to innovate in improving communication systems by enhancing signal quality and reception using smart antenna technologies.",
+        name: "LINNAEUS UNIVERSITY",
+        designation: "Signal processing and smart antenna",
+        company: "LNU",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmY_m1QrQ66ODItSIrB87UZuyjrWN65RCAyg&usqp=CAU",
     },
     {
         testimonial:
-            "You have been an exceptional student for two years, consistently completing all your projects as expected. Based on your performance, I predict that you will become one of the top programmers in the future",
-        name: "Djura Dzakula",
-        designation: "Tesla",
-        company: "React teacher",
-        image: "https://media.licdn.com/dms/image/D4D35AQFAkB9ARSHFsQ/profile-framedphoto-shrink_800_800/0/1652341120505?e=1689058800&v=beta&t=DQBUUdzFkaMNgB8n5aSoJyYQk0EoTQsFxaafNEjgLrw",
+            " As a web developer specializing in front-end development, I have extensive experience and proficiency in various technologies. I am skilled in databases, CSS, TypeScript, JavaScript, Tailwind CSS, Figma, and HTML. My expertise spans the spectrum of front-end development, encompassing design (Figma), structuring content (HTML), styling (CSS and Tailwind), and enhancing functionality (JavaScript and TypeScript). With this skill set, I am adept at creating responsive and engaging user interfaces while leveraging databases to build dynamic and interactive web applications",
+        name: "YRKESHÖGSKOLAN",
+        designation: "Web developer with a focus on front-end development",
+        company: "KYH",
+        image: "https://admin.studier.se/wp-content/uploads/2022/03/kyh-logga.jpg",
     },
     
 ];
