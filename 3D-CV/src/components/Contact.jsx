@@ -78,6 +78,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionSubText}><span className='text-[#915EFF]'>Contact.</span></h3>
+        <h3 className={styles.sectionSubText}><span className='text-[#915EFF]'>Tel: +46722-612-016</span></h3>
+
+
 
         <form
           ref={formRef}
@@ -113,7 +116,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What you want to say and your contact?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -136,7 +139,6 @@ const Contact = () => {
     </div>
   );
 };
-
 export default SectionWrapper(Contact, "contact");
 //T4jkjIWh44NHxrIa7
 //template_lnqlwai
