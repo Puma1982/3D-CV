@@ -1,3 +1,5 @@
+{/*3D picture is loading*/}
+
 import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
@@ -16,10 +18,10 @@ const CanvasLoader = () => {
       <span className='canvas-loader'></span>
       <p
         style={{
-          fontSize: 14,
+          fontSize: 20,
           color: "#F1F1F1",
           fontWeight: 800,
-          marginTop: 40,
+          marginTop: 60,
         }}
       >
         {progress.toFixed(2)}%

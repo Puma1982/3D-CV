@@ -8,17 +8,18 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    MAX,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    miro,
+    rco,
+    kl,
+    liu,
+    megger,
+    Apartly,
     carrent,
     jobit,
     tripguide,
@@ -46,7 +47,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React & Next.js Developer",
         icon: mobile,
     },
     {
@@ -54,7 +55,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Electronics engineering and signal processing",  
         icon: creator,
     },
 ];
@@ -81,8 +82,8 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "3D-Max Toolkit",
+        icon: MAX,
     },
     {
         name: "Tailwind CSS",
@@ -109,57 +110,69 @@ const technologies = [
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Miro",
+        icon: miro,
     },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Electrical Engineer",
+        company_name: "Kl Industry",
+        icon:kl,
+        iconBg: "#E6DEDD",
+        date: "March 2016 - April 2017",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Specializing in Electrical Installation and Mechanical Work. I excel in manufacturing low voltage switches based on electrical schedules. My expertise extends to various tasks such as:",
+            "Assembly of cable ladders and bushings.",
+            "Preparation for wiring, assembly, and installation.",
+            "Proficient in programming languages like C++, LabVIEW, and MATLAB.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "RESEARCH ENGINEER LIU",
+        company_name: "LINKÖPING/NORRKÖPING UNIVERSITY",
+        icon: liu,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2017 - Feb 2018",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "SERVICE AND MAINTENANCE OF INSTRUMENTS AND MACHINERY.",
+            "SERVICE AND MAINTENANCE OF CLEANROOM FACILITIES (CLEANROOM VENTILATION, EXHAUST AIR SYSTEMS, WATER TREATMENT VACUUM PUMPS, COMPRESSED AIR SUPPLY, GAS SUPPLY, ETC.),.",
+            "EQUIPMENT INSTALLATION MANUFACTURE OF SIMPLER INSTALLATIONS AND EQUIPMENT COORDINATION OF EXTERNAL SERVICES FOR MAINTENANCE AND REPAIRS.",
             "Participating in code reviews and providing constructive feedback to other developers.",
+       "In this revised version, I have reorganized and clarified the information to improve readability and provide a clearer understanding of the services provided by the research engineer at Linköping/Norrköping University."
+          ],
+          
+    },
+    {
+        title: "Electronics engineer",
+        company_name: "Megger",
+        icon: megger,
+        iconBg: "#E6DEDD",
+        date: "Jan 2022 - Jan 2023",
+        points: [
+            "PRODUCT ASSEMBLY, PROTOTYPING, TESTING, PROGRAMMING,SERVICE, INVENTORY MANAGEMENT, AND SUPPORT.",
+        ],
+    },
+    {
+        title: "Electronics engineer",
+        company_name: "RCO",
+        icon: rco,
+        iconBg: "#E6DEDD",
+        date: "Jan 2023 - Present",
+        points: [
+            "MECHANICAL AND ELECTRONICS ASSEMBLY, CODE LOCK TESTING.",
+            "PRODUCTS FOR PASSAGE SYSTEMS, PROTOTYPE ASSEMBLY.",
+            "TESTING.",
+            "SERVICE, INVENTORY MANAGEMENT, AND SUPPORT.",
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Apartly",
+        icon: Apartly,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Nov 2022 - Jan 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,38 +185,39 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "My degree in engineering with a focus on radio electronics and semiconductors represents a comprehensive understanding of electrical circuits, semiconductor devices, and their applications in communication systems. My education delved deep into the principles of radio frequency (RF) systems, semiconductor physics, and the design of electronic circuits used in communication technologies. It equipped me with expertise in semiconductor materials, their properties, and the fabrication processes involved in manufacturing semiconductor devices like diodes, transistors, and integrated circuits.",
+        name: "NURE UNIVERSITY",
+        designation: "Radio electronics semiconductors",
+        company: "NURE",
+        image: "https://ingek.com/wp-content/uploads/2020/04/Logo_NURE_3_Uk_27mm-300x300.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "My Master's degree in Signal Processing and Smart Antenna focused on advanced signal manipulation and cutting-edge smart antenna design. This program equipped me with expertise in optimizing wireless signal reception through techniques like adaptive signal processing and antenna array design. I gained hands-on experience in implementing signal processing algorithms, preparing me to innovate in improving communication systems by enhancing signal quality and reception using smart antenna technologies.",
+        name: "LINNAEUS UNIVERSITY",
+        designation: "Signal processing and smart antenna",
+        company: "LNU",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmY_m1QrQ66ODItSIrB87UZuyjrWN65RCAyg&usqp=CAU",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            " As a web developer specializing in front-end development, I have extensive experience and proficiency in various technologies. I am skilled in databases, CSS, TypeScript, JavaScript, Tailwind CSS, Figma, and HTML. My expertise spans the spectrum of front-end development, encompassing design (Figma), structuring content (HTML), styling (CSS and Tailwind), and enhancing functionality (JavaScript and TypeScript). With this skill set, I am adept at creating responsive and engaging user interfaces while leveraging databases to build dynamic and interactive web applications",
+        name: "YRKESHÖGSKOLAN",
+        designation: "Web developer with a focus on front-end development",
+        company: "KYH",
+        image: "https://admin.studier.se/wp-content/uploads/2022/03/kyh-logga.jpg",
     },
+    
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "# Dashboard",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "I have followed a tutorial on building and deploying a MERN stack admin dashboard. For the frontend, I utilized Material-UI,Material-UI Data Grid, Nivo Charts, Redux Toolkit, and Redux Toolkit Query. As for the backend, I used Node.js, Express.js, Mongoose, and MongoDB. Additionally, I learned about data modeling using Entity Relationship Diagrams (ERDs) and how to perform aggregate calls in MongoDB.",
         tags: [
             {
-                name: "react",
+                name: "Express.js",
                 color: "blue-text-gradient",
             },
             {
@@ -211,33 +225,33 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "chakra-ui",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Puma1982/Dashboard",
     },
     {
-        name: "Job IT",
+        name: "Event Calendar",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Event calendar using Express.js and CSS, and then we can discuss how we can improve it further.",
         tags: [
             {
-                name: "react",
+                name: "Express.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "package.json",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "css",
                 color: "pink-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Puma1982/Note-Porject",
     },
     {
         name: "Trip Guide",
@@ -258,7 +272,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Puma1982/Note-Porject",
     },
 ];
 

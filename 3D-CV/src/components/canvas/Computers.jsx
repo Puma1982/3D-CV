@@ -30,9 +30,10 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
+  
+  //Mobile size
   const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
+   useEffect(() => {
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
@@ -44,7 +45,7 @@ const ComputersCanvas = () => {
       setIsMobile(event.matches);
     };
 
-    // Add the callback function as a listener for changes to the media query
+    // Add the callback function as a listener for changes to the media query (Add it and after must remove it)
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     // Remove the listener when the component is unmounted
