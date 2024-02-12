@@ -31,12 +31,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        'service_dslkn8p',
-        'template_lnqlwai',
-        //import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    emailjs.send('service_1s8c3cg',
+    'template_no4mob8',
         {
           from_name: form.name,
           to_name: "Haithem",
@@ -44,8 +40,7 @@ const Contact = () => {
           to_email: "haithemgrissa@gmail.com",
           message: form.message,
         },
-        //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-        'T4jkjIWh44NHxrIa7'
+        '3xSiy0VE9mUF8uOrW'
 
       )
       .then(
