@@ -47,18 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-As a highly skilled software developer,
-I bring a wealth of experience in TypeScript 
-and JavaScript to the table. My expertise 
-extends to frameworks such as React, Node.js,
- and Three.js, enabling me to craft robust and
-  efficient solutions. I pride myself on being 
-  a quick learner and place great importance on 
-  collaborating closely with clients. By understanding 
-  their needs, I create user-friendly and scalable 
-  solutions that effectively address real-world challenges. 
-  Together, we can transform your ideas into 
-  reality and deliver outstanding results.
+As a junior web developer with a background in electronics engineering, I offer a 
+multidisciplinary approach to problem-solving. In addition to my expertise in TypeScript,
+ JavaScript, React, and Node.js, I also have experience with Next.js for building powerful
+  web applications. Furthermore, my proficiency in 3D modeling with software like 3D Max
+   adds another dimension to my skill set, allowing me to create immersive and visually
+    appealing web experiences. I'm passionate about learning and applying new technologies
+     to find creative solutions for our projects. Let's work closely together to understand
+      your needs and develop innovative solutions that exceed your expectations!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
